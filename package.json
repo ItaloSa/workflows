@@ -1,0 +1,32 @@
+{
+  "name": "workflows",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "format": "prettier \"*.+(js)\" --check",
+    "lint": "eslint **/*.js",
+    "release": "release-it --ci",
+    "build": "mkdir build && echo '' > build/test.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItaloSa/workflows.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItaloSa/workflows/issues"
+  },
+  "homepage": "https://github.com/ItaloSa/workflows#readme",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^4.2.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "^2.5.1",
+    "release-it": "^14.12.5"
+  }
+}
