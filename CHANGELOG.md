@@ -1,4 +1,11 @@
-undefined
+# Changelog
+
+## [1.3.2](https://github.com/ItaloSa/workflows/compare/1.3.1...1.3.2) (2022-03-09)
+
+
+### Features
+
+* **CHANGELOG:** Add header config ([b0928e2](https://github.com/ItaloSa/workflows/commit/b0928e26b0045af59e00bf49184109a8edcb3309))undefined
 
 ## [1.3.1](https://github.com/ItaloSa/workflows/compare/1.3.0...1.3.1) (2022-03-09)
 
