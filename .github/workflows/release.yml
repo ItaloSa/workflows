@@ -16,7 +16,7 @@ on:
 jobs:
 
   validate:
-    uses: ./.github/workflows/validate.yaml
+    uses: ./.github/workflows/validate.yml
 
   release:
     needs: validate
