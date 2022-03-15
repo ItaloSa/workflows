@@ -11,7 +11,8 @@
     "format": "prettier \"**/*.+(ts)\" --check",
     "lint": "eslint **/*.ts",
     "release": "release-it --ci",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",
