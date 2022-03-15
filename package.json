@@ -5,8 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "format": "prettier \"*.+(js)\" --check",
-    "lint": "eslint **/*.js",
+    "format": "prettier \"**/*.+(ts)\" --check",
+    "lint": "eslint **/*.ts",
     "release": "release-it --ci",
     "build": "tsc"
   },
