@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.6.6](https://github.com/ItaloSa/workflows/compare/1.6.5...1.6.6) (2022-03-15)
+
 ## [1.6.5](https://github.com/ItaloSa/workflows/compare/1.6.4...1.6.5) (2022-03-15)
 
 ## [1.6.4](https://github.com/ItaloSa/workflows/compare/1.6.3...1.6.4) (2022-03-15)
