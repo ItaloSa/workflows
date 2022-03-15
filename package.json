@@ -4,8 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
