@@ -16,9 +16,7 @@ on:
 jobs:
 
   validate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: ./.github/workflows/validate.yaml
+    uses: ./.github/workflows/validate.yaml
 
   release:
     needs: validate
