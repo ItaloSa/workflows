@@ -3,6 +3,10 @@
   "version": "2.0.0",
   "description": "",
   "main": "build/index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "format": "prettier \"**/*.+(ts)\" --check",
