@@ -13,6 +13,7 @@ on:
         - minor
         - major
 
+jobs:
   release:
     needs: build
     runs-on: ubuntu-latest
