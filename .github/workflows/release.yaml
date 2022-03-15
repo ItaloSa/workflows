@@ -44,15 +44,14 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       - name: Config Git
+        env:
+          NPM_SECRET: ${{ secrets.NPM_SECRET }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
