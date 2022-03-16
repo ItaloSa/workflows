@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/ItaloSa/workflows/compare/2.1.0...2.1.1) (2022-03-15)
+
+
+### Features
+
+* **ci:** Test release ([eee291c](https://github.com/ItaloSa/workflows/commit/eee291cf61458b25f5e26c531350617975d4a9a1))
+
 # [2.1.0](https://github.com/ItaloSa/workflows/compare/2.0.0...2.1.0) (2022-03-15)
 
 # [2.0.0](https://github.com/ItaloSa/workflows/compare/1.6.6...2.0.0) (2022-03-15)
