@@ -1,5 +1,12 @@
 # Changelog
 
+# [2.2.0](https://github.com/ItaloSa/workflows/compare/2.1.1...2.2.0) (2022-03-16)
+
+
+### Features
+
+* Use default token ([f13da91](https://github.com/ItaloSa/workflows/commit/f13da9178757af4c2ce7d2c2ccc504ab1a5b8986))
+
 ## [2.1.1](https://github.com/ItaloSa/workflows/compare/2.1.0...2.1.1) (2022-03-15)
 
 
