@@ -34,11 +34,17 @@ jobs:
       - name: Format
         run: yarn format
   
+  # build:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: ./.github/workflows/build.yml
+  #     - run: ls -a
+
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: ./.github/workflows/build.yml
-      - run: ls -a
+    # runs-on: ubuntu-latest
+    # steps:
+    uses: ./.github/workflows/build.yml
+      # - run: ls -a
 
   # build:
   #   runs-on: ubuntu-latest
