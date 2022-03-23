@@ -38,6 +38,7 @@ jobs:
     uses: ./.github/workflows/build.yml
 
   check-build:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Restore Cache Build
