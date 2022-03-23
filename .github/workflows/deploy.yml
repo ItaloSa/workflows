@@ -1,0 +1,31 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:  
+  build:
+    if: ${{ github.ref_type == 'tag' }}
+    uses: ./.github/workflows/build.yml
+
+  check-build:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Restore Cache Build
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./build
+          key: build-${{ github.sha }}
+      - run: |
+          ls -a
+          cd build
+          ls -a
