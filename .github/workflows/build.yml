@@ -28,6 +28,8 @@ jobs:
     - name: Build
       run: yarn build
 
+    - run: echo ${{ inputs.cache-build }}
+
     - name: Cache Build
       if: ${{ inputs.cache-build }} == true
       uses: actions/cache@v3
