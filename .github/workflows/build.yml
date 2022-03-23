@@ -30,4 +30,4 @@ jobs:
       with:
         path: |
           ./build
-        key: build-${{ hashFiles('yarn.lock') }}
+        key: build-${{ github.sha }}
