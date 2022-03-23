@@ -2,6 +2,9 @@ name: Validate
 
 on:
   workflow_call:
+    inputs:
+      cache-build:
+        type: boolean
 
 jobs:
 
@@ -26,6 +29,7 @@ jobs:
       run: yarn build
 
     - name: Cache Build
+      if: ${{ inputs.cache-build }} == true
       uses: actions/cache@v3
       with:
         path: |
