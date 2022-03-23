@@ -53,9 +53,9 @@ jobs:
             ./build
           key: build-${{ hashFiles('yarn.lock') }}
       - run: |
-        ls -a
-        cd build
-        ls -a
+          ls -a
+          cd build
+          ls -a
 
   # build:
   #   runs-on: ubuntu-latest
