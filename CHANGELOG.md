@@ -1,5 +1,13 @@
 # Changelog
 
+# [2.4.0](https://github.com/ItaloSa/workflows/compare/2.3.0...2.4.0) (2022-03-30)
+
+
+### Features
+
+* Add build ([82d6448](https://github.com/ItaloSa/workflows/commit/82d644816b8ac8b35361cffd002101a5845c36ec))
+* Test cache ([11b1a02](https://github.com/ItaloSa/workflows/commit/11b1a02582bde8a31363513a1dc1e6e587d0e8f7))
+
 # [2.3.0](https://github.com/ItaloSa/workflows/compare/2.2.0...2.3.0) (2022-03-16)
 
 # [2.2.0](https://github.com/ItaloSa/workflows/compare/2.1.1...2.2.0) (2022-03-16)
