@@ -29,3 +29,4 @@ jobs:
           ls -a
           cd build
           ls -a
+          echo 'ok'
