@@ -1,13 +1,14 @@
 name: Deploy
 
 on:
-  push:
-    tags:        
-      - '**'
+  workflow_run:
+    workflows: ['Release']
+    branches: [main]
+    types: 
+      - completed
 
 jobs:  
   build:
-    if: ${{ github.ref_type == 'tag' }}
     uses: ./.github/workflows/build.yml
 
   check-build:

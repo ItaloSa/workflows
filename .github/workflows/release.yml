@@ -17,12 +17,7 @@ jobs:
 
   validate:
     uses: ./.github/workflows/validate.yml
-    with:
-      build: false
   
-  build:
-    uses: ./.github/workflows/build.yml
-
   release:
     needs: [validate, build]
     runs-on: ubuntu-latest
