@@ -2,6 +2,9 @@ name: Validate
 
 on:
   workflow_call:
+    inputs:
+      build:
+        type: boolean
   push:
     branches:
       - 'main'
@@ -35,6 +38,7 @@ jobs:
         run: yarn format
   
   build:
+    if: ${{ inputs.build == 'true' }}
     uses: ./.github/workflows/build.yml
 
   check-build:
