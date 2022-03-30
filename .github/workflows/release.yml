@@ -19,7 +19,7 @@ jobs:
     uses: ./.github/workflows/validate.yml
   
   release:
-    needs: [validate, build]
+    needs: validate
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
